@@ -18,11 +18,11 @@
 
 </div>
 
-## 🌌 Tentang Proyek
+## Tentang Proyek
 
 **Tetracore Server Simulation** adalah implementasi interaktif dari teori **Methane Metauniverse (MMU)** yang dikembangkan oleh Jürgen Wollbold. Aplikasi ini mensimulasikan sistem stabilisasi **Counter-Tetrahedron Pairing** di mana realitas dimodelkan sebagai struktur geometris yang terdiri dari tetrahedron.
 
-### 🔬 Dasar Ilmiah
+### Dasar Ilmiah
 
 Berdasarkan paper penelitian:
 - **Judul**: "The Methane Metauniverse (MMU) A Geometric Explanation of Antiparticles, Entanglement, and Time"
@@ -30,7 +30,7 @@ Berdasarkan paper penelitian:
 - **DOI**: [10.17605/OSF.IO/MK3XR](https://osf.io/mk3xr/)
 - **Tanggal**: August 2025
 
-### 🎯 Konsep Utama
+### Konsep Utama
 
 - **Geometric Reality**: Alam semesta sebagai lattice fraktal dari tetrahedra
 - **Four-Dimensional Nodes**: Setiap node menghubungkan 4 arah (w₁: projection, w₂: energy, w₃: spin, w₄: mass)
@@ -38,7 +38,7 @@ Berdasarkan paper penelitian:
 - **Quantum Entanglement**: Koneksi fisik antara nodes yang dibuat bersamaan
 - **Time as Oscillation**: Waktu sebagai hasil proyeksi osilasi internal
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 ### 🔧 Physics Engine
 - **Tetrahedron Pair Management**: Sistem manajemen pasangan matter-antimatter
@@ -46,19 +46,19 @@ Berdasarkan paper penelitian:
 - **Stability Calculations**: Kalkulasi faktor stabilitas berdasarkan jarak, energi, dan sinkronisasi fase
 - **System Metrics**: Monitoring stabilitas sistem dan energi total
 
-### 🎨 Interactive Interface  
+### Interactive Interface  
 - **3D Visualization**: Visualisasi interaktif pasangan tetrahedron
 - **Real-time Dashboard**: Panel kontrol untuk simulasi dan monitoring
 - **Detailed Analysis**: Panel analisis detail untuk setiap pasangan
 - **Professional UI**: Desain modern dengan Tailwind CSS dan animasi
 
-### 🚀 Technical Stack
+### Technical Stack
 - **Backend**: FastAPI (Python) dengan MongoDB
 - **Frontend**: React dengan shadcn/ui components
 - **Real-time**: WebSocket untuk update langsung
 - **Styling**: Tailwind CSS dengan custom animations
 
-## 🖼️ Screenshots
+## 🖼Screenshots
 
 <div align="center">
 
@@ -76,7 +76,7 @@ Berdasarkan paper penelitian:
 
 </div>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -112,7 +112,7 @@ Berdasarkan paper penelitian:
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8001
 
-📖 **Untuk instalasi lengkap, lihat [INSTALL.md](INSTALL.md)**
+**Untuk instalasi lengkap, lihat [INSTALL.md](INSTALL.md)**
 
 ## 🎮 Cara Penggunaan
 
@@ -161,7 +161,7 @@ DELETE /api/pairs/{id}        # Delete pair
 WS /api/ws                    # WebSocket untuk updates real-time
 ```
 
-## 🧮 Physics Implementation
+## Physics Implementation
 
 ### Tetrahedron Geometry
 ```python
@@ -191,7 +191,7 @@ def update_oscillations(dt):
     antimatter.energy_state = -(1.0 + 0.3 * sin(antimatter.phase))
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 tetracore-server/
@@ -211,22 +211,22 @@ tetracore-server/
 └── README.md             # This file
 ```
 
-## 🌟 Scientific Accuracy
+## Scientific Accuracy
 
 ### Methane Metauniverse Theory Implementation
-- ✅ **Tetrahedron Lattice**: Geometric structure sebagai basis reality
-- ✅ **Four-Dimensional Nodes**: w₁, w₂, w₃, w₄ parameters
-- ✅ **Matter-Antimatter Pairs**: Counter-tetrahedron stabilization  
-- ✅ **Quantum Entanglement**: Physical connections antara paired nodes
-- ✅ **Time Oscillation**: Internal vibrations sebagai projected time
+-  **Tetrahedron Lattice**: Geometric structure sebagai basis reality
+-  **Four-Dimensional Nodes**: w₁, w₂, w₃, w₄ parameters
+-  **Matter-Antimatter Pairs**: Counter-tetrahedron stabilization  
+-  **Quantum Entanglement**: Physical connections antara paired nodes
+-  **Time Oscillation**: Internal vibrations sebagai projected time
 
 ### Physics Calculations
-- ✅ **Distance-based Stability**: Optimal distance calculations
-- ✅ **Energy Balance**: Matter-antimatter energy compensation
-- ✅ **Phase Synchronization**: Oscillation phase relationships
-- ✅ **System Metrics**: Overall stability dan energy tracking
+-  **Distance-based Stability**: Optimal distance calculations
+-  **Energy Balance**: Matter-antimatter energy compensation
+-  **Phase Synchronization**: Oscillation phase relationships
+-  **System Metrics**: Overall stability dan energy tracking
 
-## 🤝 Contributing
+## Contributing
 
 Kami menyambut kontribusi untuk pengembangan simulasi ini:
 
@@ -236,7 +236,7 @@ Kami menyambut kontribusi untuk pengembangan simulasi ini:
 4. **Push** ke branch (`git push origin feature/amazing-feature`)
 5. **Open** Pull Request
 
-## 📚 References
+## References
 
 1. Wollbold, J. (2025). "The Methane Metauniverse (MMU) A Geometric Explanation of Antiparticles, Entanglement, and Time." OSF. DOI: 10.17605/OSF.IO/MK3XR
 
@@ -246,7 +246,7 @@ Kami menyambut kontribusi untuk pengembangan simulasi ini:
 
 4. [MongoDB Documentation](https://docs.mongodb.com/)
 
-## 📄 License
+## License
 
 Project ini dilisensikan di bawah MIT License.
 
@@ -254,7 +254,7 @@ Project ini dilisensikan di bawah MIT License.
 
 <div align="center">
 
-**🌌 Advancing Theoretical Physics Through Interactive Simulation 🌌**
+** Advancing Theoretical Physics Through Interactive Simulation **
 
 Made with ❤️ for the scientific community
 
