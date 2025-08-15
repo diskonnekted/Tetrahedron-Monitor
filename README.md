@@ -40,7 +40,7 @@ Berdasarkan paper penelitian:
 
 ## Fitur Utama
 
-### 🔧 Physics Engine
+### Physics Engine
 - **Tetrahedron Pair Management**: Sistem manajemen pasangan matter-antimatter
 - **Real-time Oscillations**: Simulasi getaran tetrahedron dengan frequency dan phase
 - **Stability Calculations**: Kalkulasi faktor stabilitas berdasarkan jarak, energi, dan sinkronisasi fase
@@ -58,7 +58,7 @@ Berdasarkan paper penelitian:
 - **Real-time**: WebSocket untuk update langsung
 - **Styling**: Tailwind CSS dengan custom animations
 
-## 🖼Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -114,7 +114,7 @@ Berdasarkan paper penelitian:
 
 **Untuk instalasi lengkap, lihat [INSTALL.md](INSTALL.md)**
 
-## 🎮 Cara Penggunaan
+## Cara Penggunaan
 
 ### 1. Membuat Tetrahedron Pairs
 - Klik tombol **"Create Pair"** untuk membuat pasangan matter-antimatter baru
@@ -138,7 +138,7 @@ Berdasarkan paper penelitian:
 - **Reset**: Reset seluruh simulasi dan hapus semua pairs
 - **Monitor**: Pantau metrics sistem secara real-time
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Simulation Control
 ```http
