@@ -91,6 +91,8 @@ function App() {
   const startSimulation = async () => {
     try {
       await fetch(`${BACKEND_URL}/api/simulation/start`, { method: 'POST' });
+      // Refresh state to show updated running status
+      await fetchSimulationState();
     } catch (error) {
       console.error('Error starting simulation:', error);
     }
@@ -99,6 +101,8 @@ function App() {
   const stopSimulation = async () => {
     try {
       await fetch(`${BACKEND_URL}/api/simulation/stop`, { method: 'POST' });
+      // Refresh state to show updated running status
+      await fetchSimulationState();
     } catch (error) {
       console.error('Error stopping simulation:', error);
     }
