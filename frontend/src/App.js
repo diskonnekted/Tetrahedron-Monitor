@@ -84,6 +84,11 @@ function App() {
     return () => clearInterval(intervalId);
   }, [simulationState.running]);
 
+  // Initial data fetch
+  useEffect(() => {
+    fetchSimulationState();
+  }, []);
+
   const fetchSimulationState = async () => {
     try {
       const response = await fetch(`${BACKEND_URL}/api/simulation/state`);
