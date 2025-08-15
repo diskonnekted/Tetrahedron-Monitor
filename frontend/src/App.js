@@ -140,6 +140,8 @@ function App() {
       if (selectedPair && selectedPair.id === pairId) {
         setSelectedPair(null);
       }
+      // Refresh state immediately after deleting pair
+      await fetchSimulationState();
     } catch (error) {
       console.error('Error deleting pair:', error);
     }
