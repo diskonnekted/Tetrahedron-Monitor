@@ -122,6 +122,9 @@ function App() {
       await fetch(`${BACKEND_URL}/api/pairs/create?center_x=${randomX}&center_y=${randomY}&center_z=${randomZ}&separation=2.5`, { 
         method: 'POST' 
       });
+      
+      // Refresh state immediately after creating pair
+      await fetchSimulationState();
     } catch (error) {
       console.error('Error creating pair:', error);
     }
