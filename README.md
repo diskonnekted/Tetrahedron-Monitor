@@ -58,6 +58,24 @@ Berdasarkan paper penelitian:
 - **Real-time**: WebSocket untuk update langsung
 - **Styling**: Tailwind CSS dengan custom animations
 
+## 🖼️ Screenshots
+
+<div align="center">
+
+### Main Interface
+![Tetracore Server Interface](docs/screenshots/github_main_interface.png)
+
+### Tetrahedron Pairs Visualization  
+![Tetrahedron Pairs](docs/screenshots/github_multiple_pairs.png)
+
+### Detailed Analysis Panel
+![Pair Analysis](docs/screenshots/github_pair_analysis.png)
+
+### Real-time Simulation
+![Simulation Running](docs/screenshots/github_simulation_running.png)
+
+</div>
+
 ## 🚀 Quick Start
 
 ### Prerequisites
