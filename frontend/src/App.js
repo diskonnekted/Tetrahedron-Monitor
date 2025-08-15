@@ -73,10 +73,16 @@ function App() {
     };
   }, []);
 
-  // Initial data fetch
+  // Periodic state refresh for simulation updates (fallback for WebSocket)
   useEffect(() => {
-    fetchSimulationState();
-  }, []);
+    const intervalId = setInterval(() => {
+      if (simulationState.running) {
+        fetchSimulationState();
+      }
+    }, 1000); // Refresh every second during simulation
+
+    return () => clearInterval(intervalId);
+  }, [simulationState.running]);
 
   const fetchSimulationState = async () => {
     try {
